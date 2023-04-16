@@ -1,0 +1,30 @@
+.footer-item-text{
+    color: #ffffffbf;
+    font-size: 17px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-item-title{
+    color: #00ffbf;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.footer-item-title div{
+    height: 5px;
+    width: 5px;
+    background-color: #00ffea;
+    border-radius: 10px;
+    margin-right: 6px;
+}
+
+.footer-item-text div{
+    height: 3px;
+    width: 3px;
+    background-color: #ffffffbf;
+    border-radius: 10px;
+    margin-right: 6px;
+}

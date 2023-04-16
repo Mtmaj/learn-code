@@ -5,8 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/iconsax-css/style.css">
+    <script src="js/header.js"></script>
     <title>Learn Code</title>
 </head>
+
+
+
 <body>
     <!-- Header Web -->
     <header class="flex column" style="background-color: aquamarine;">
@@ -18,10 +25,17 @@
                 <div class="flex row fit-size">
                     <span style="margin-right: 40px;font-weight: 700;color: black;font-size: 20px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Learn Code Online</span>
                     <ul style="color: black;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-weight: 100;">
-                        <li style="font-size: 20px;"><a href="#">Home</a></li>
-                        <li style="font-size: 20px;"><a href="#">Html&Css</a></li>
-                        <li style="font-size: 20px;"><a href="#">Flutter</a></li>
-                        <li style="font-size: 20px;"><a href="#">Python</a></li>
+                        <li class="item-header" style="font-size: 20px;"><a href="#">Home</a></li>
+                        <li class="dropdown" style="font-size: 20px;"><a href="#" class="flex row align-center">Course <img src="./imgs/arrow.png" style="width: 14px;height: 14px;margin-top: 2px;margin-left: 3px;" alt=""> </a>
+                            <div class="dropdown-content flex column">
+                                <a href="#" style="color: white;">Html</a>
+                                <a href="#" style="color: white;">Css</a>
+                                <a href="#" style="color: white;">Python</a>
+                                <a href="#" style="color: white;">Dart</a>
+                                <a href="#" style="color: white;">Flutter</a>
+                            </div></li>
+                        <li class="item-header" style="font-size: 20px;"><a href="#">Blog</a></li>
+                        <li class="item-header" style="font-size: 20px;"><a href="#">About us</a></li>
                     </ul>
                 </div>
                 <!-- End Left Side bar -->
@@ -146,36 +160,74 @@
         
         <div style="width: 35%;background-color: white;border-radius: 15px;padding: 22px 34px;height: fit-content;" class="flex column align-center">
         <span style="font-size: 20px;font-weight: bold;text-align: start;width: 100%;color: #000000ad;">Python Exampel : </span>
-        <div style="border-left: 4px #00ffea solid; width: 100%;height: fit-content;margin: 20px 0px;box-shadow: 0px 7px 20px 0px #00000042;padding: 17px 0;" class="flex center-content">
-            <textarea type="text" wrap="logical" spellcheck="false" style="width: 90%;height: 300px;resize: none;cursor: auto;outline: none;border-radius: 0px;border: none;"></textarea>
-        </div>
-        <div class="flex row" style="width: 100%;">
-            <a style="padding: 10px 30px;border-radius: 50px;background-color: #077269;color: white;font-size: 20px;font-weight: bold;" href="#">
-                Try It
-            </a>
-            <a style="margin-left: 10px;padding: 10px 30px;border-radius: 50px;background-color: #ececec;color: rgb(0, 0, 0);font-size: 20px;font-weight: bold;" href="#">
-                Learn This
-            </a>
-        </div>
-    </div>
-    </div>
-    <!--flutter card-->
-    <div style="padding: 0px 60px;background-color: #ffd04f;">
-    <div class="flex row expand-width left-content" style="padding: 60px 0px;background-color: #ffd04f;">
-        <img src="https://blog.faradars.org/wp-content/uploads/2020/12/What-is-Flutter-in-simple-words.jpg" alt="" style="border-radius: 10px;width: 450px;">
-        <div class="flex column align-start" style="width: 40%;margin-left: 30px;">
-            <span style="color: black;font-weight: 700;font-size: 35px;">Flutter</span>
-            <p style="text-align: start;color: black;font-size: 20px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis dolore id molestias corrupti, dignissimos illum expedita iste nobis sapiente, saepe facilis. Quaerat quod voluptates ipsum? Ullam perferendis veniam dolorum animi?</p>
-            <div style="height: 100%;width: 100%;" class="flex row left-content align-end">
+            <div style="border-left: 4px #00ffea solid; width: 100%;height: fit-content;margin: 20px 0px;box-shadow: 0px 7px 20px 0px #00000042;padding: 17px 0;" class="flex center-content">
+                <textarea type="text" wrap="logical" spellcheck="false" style="width: 90%;height: 300px;resize: none;cursor: auto;outline: none;border-radius: 0px;border: none;"></textarea>
+            </div>
+            <div class="flex row" style="width: 100%;">
                 <a style="padding: 10px 30px;border-radius: 50px;background-color: #077269;color: white;font-size: 20px;font-weight: bold;" href="#">
-                    Go To Learn
+                    Try It
                 </a>
                 <a style="margin-left: 10px;padding: 10px 30px;border-radius: 50px;background-color: #ececec;color: rgb(0, 0, 0);font-size: 20px;font-weight: bold;" href="#">
-                    Read More...
+                    Learn This
                 </a>
             </div>
         </div>
     </div>
-</div>
+    <!--flutter card-->
+    <div style="padding: 0px 60px;background-color: #ffd04f;">
+        <div class="flex row expand-width left-content" style="padding: 60px 0px;background-color: #ffd04f;">
+            <img src="https://blog.faradars.org/wp-content/uploads/2020/12/What-is-Flutter-in-simple-words.jpg" alt="" style="border-radius: 10px;width: 450px;">
+            <div class="flex column align-start" style="width: 40%;margin-left: 60px;">
+                <span style="color: black;font-weight: 700;font-size: 35px;">Flutter</span>
+                <p style="text-align: start;color: black;font-size: 20px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis dolore id molestias corrupti, dignissimos illum expedita iste nobis sapiente, saepe facilis. Quaerat quod voluptates ipsum? Ullam perferendis veniam dolorum animi?</p>
+                <div style="height: 100%;width: 100%;" class="flex row left-content align-end">
+                    <a style="padding: 10px 30px;border-radius: 50px;background-color: #077269;color: white;font-size: 20px;font-weight: bold;" href="#">
+                        Go To Learn
+                    </a>
+                    <a style="margin-left: 10px;padding: 10px 30px;border-radius: 50px;background-color: #ececec;color: rgb(0, 0, 0);font-size: 20px;font-weight: bold;" href="#">
+                        Read More...
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Flutter Card-->
+    
+    <div style="background-color: #353030;width: 100%;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" style="height: min-content;background-color: #353030;" viewBox="0 0 1440 44" fill="none">
+            <path xmlns="http://www.w3.org/2000/svg" d="M1440 0H0V34C0 34 153.906 9.5 414.587 9.5C720.799 9.50001 722.801 43.5 1009.5 43.5C1213.14 43.5 1440 0 1440 0Z" fill="#FFD04F"/>
+        </svg>
+    </div>
+    
+
+    <!--Start Footer Card-->
+    <div class="flex column expand-width" style="background-color: #353030;padding: 40px 0px;">
+        <div class="flex row expand-width space-around align-start">
+            <div class="flex column right-content">
+                <a href="#" class="footer-item-title"><div></div> Courses</a>
+                <a href="#" class="footer-item-text"><div></div> Learning Html</a>
+                <a href="#" class="footer-item-text"><div></div> Learning Css</a>
+                <a href="#" class="footer-item-text"><div></div> Learning Python</a>
+                <a href="#" class="footer-item-text"><div></div> Learning Dart</a>
+                <a href="#" class="footer-item-text"><div></div> Learning Flutter</a>
+            </div>
+            <div class="flex column right-content">
+                <a href="#" class="footer-item-title"><div></div> Learn Code</a>
+                <a href="#" class="footer-item-text"><div></div> Home</a>
+                <a href="#" class="footer-item-text"><div></div> Blog</a>
+                <a href="#" class="footer-item-text"><div></div> About us</a>
+                <a href="#" class="footer-item-text"><div></div> Another Websites</a>
+            </div>
+            <div class="flex column right-content">
+                <a href="#" class="footer-item-title"><div></div> Course</a>
+                <a href="#" class="footer-item-text"><div></div> Learning Html</a>
+                <a href="#" class="footer-item-text"><div></div> Learning Css</a>
+                <a href="#" class="footer-item-text"><div></div> Learning Python</a>
+                <a href="#" class="footer-item-text"><div></div> Learning Dart</a>
+                <a href="#" class="footer-item-text"><div></div> Learning Flutter</a>
+            </div>
+            
+        </div>
+    </div>
 </body>
 </html>
